@@ -1,0 +1,162 @@
+body{
+  background-image: url(https://i.pinimg.com/736x/5f/e0/42/5fe042b3e8dca894f497505deef38e12.jpg);
+}
+H1{
+  font-family: 'Roboto' , sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+H2{
+  font-family: 'Roboto' , sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: grid;
+  place-items: center; 
+  margin-bottom: 1px;
+}
+
+
+.todo{
+  display: grid;
+  place-items: center;
+  margin-top: 8%;
+}
+.acciones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00739656;
+  color: black;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: bold;
+}
+
+.container{
+  display: grid;
+  place-items: center;
+}
+#rostro{
+  position: relative;
+  z-index: 1;
+}
+#imagen{
+  position: absolute;
+  z-index: 2;
+  padding: 0%;
+  transform: rotate(-30deg);
+  margin-top: -95px;
+  margin-left: -75px;
+  display: grid;
+  place-items: center ;
+}
+
+.caja {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+  transition: all 1s;
+}
+
+#entrada{
+  border-color: rgb(33, 172, 190);
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+#color{
+  border-color: rgb(33, 172, 190);
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+#seleccionar-sombrero{
+  border-color: rgb(33, 172, 190);
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+button{
+  border-color: rgb(33, 172, 190);
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404); 
+}
+button:hover{
+  box-shadow: 5px 5px 5px rgba(223, 139, 14, 0.658); 
+}
+.saltar {
+  transform: translateY(-100px);
+}
+
+.mover {
+  transform: translateX(100%);
+}
+
+.parar {
+  transform: translate(0, 0);
+}
+
+.crecer {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.cara{
+  transition: 1s;
+  width: 200px;
+}
+
+
+.circular {
+  border-radius: 50%;
+}
+
+.hablar{
+  transition: 2s;
+  box-shadow: 0px 0px 5px 5px  rgba(251, 255, 0, 0.418);
+}
+#hablar{
+  position: absolute;
+  z-index: 3;
+  margin-left: 100px;
+  transform: rotate(28deg);
+}
+
+.Espacio {
+  color: white;
+  transition: 20s;
+  background: url('https://removal.ai/wp-content/uploads/2021/05/image8.png') center ;
+}
+.Space{
+  transition: 3s;
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.418);
+
+}
+.bar{
+  transition: 10s;
+  color: rgb(255, 255, 255);
+  background-color: #00739656;
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.418);
+
+}
