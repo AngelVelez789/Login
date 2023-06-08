@@ -1,0 +1,65 @@
+{% extends './base.html' %}
+
+{% block title %}Home{% endblock %}
+
+
+
+{% block body %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Usuario Logeado</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333333;
+        }
+        
+        p {
+            color: #666666;
+            line-height: 1.5;
+        }
+        
+        .logout-button {
+            background-color: #ff5555;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .logout-button:hover {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido(a), {{current_user.fullname}} </h1>
+        
+        
+        <!-- Contenido específico para usuarios logeados -->
+        
+       
+        <!-- Botón de Cerrar Sesión -->
+        <a href="/login" class="logout-button">Cerrar Sesión</a>
+    </div>
+</body>
+</html>
+{% endblock %}
